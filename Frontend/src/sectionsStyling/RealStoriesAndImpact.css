@@ -1,0 +1,104 @@
+.RealStoryImageAndContent{
+    display: flex;
+    gap: 80px;
+}
+
+.RealStoryImageAndContent img{
+    width: 44%;
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+.RealStroiesAndImpact{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-bottom: 160px;
+}
+
+.RealStoryTextContent{
+    height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.RealStoryTextContent::-webkit-scrollbar{
+    display: none;
+}
+
+.GirlWords{
+    color: #C0C0C0;
+    font-family: "Arimo Hebrew Subset Italic";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.GirlName li{
+    color: #00D17A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.GirlInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media(max-width:1080px){
+    .RealStoryImageAndContent{
+        gap: 64px;
+    }
+    .RealStoryImageAndContent img{
+        width: 50%;
+    }
+}
+
+@media(max-width:840px){
+    .RealStoryImageAndContent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .RealStoryImageAndContent img{
+        width: 80%;
+        border-radius: 16px;
+    }
+    .RealStoryTextContent{
+        height: 64vh;
+    }
+    .RealStoryTextContent{
+        gap: 64px;
+    }
+}
+
+
+@media(max-width:560px){
+    .RealStoryImageAndContent img{
+        width: 88%;
+        border-radius: 8px;
+    }
+    .RealStoryTextContent{
+        gap: 48px;
+    }
+    .RealStroiesAndImpact{
+        margin-bottom: 120px;
+    }
+    .GirlWords{
+        font-size: 14.4px;
+    }
+    .GirlName li{
+        font-size: 14.4px;
+    }
+}
+
+@media(max-width:480px){
+    .RealStoryTextContent{
+        gap: 40px;
+    }
+}

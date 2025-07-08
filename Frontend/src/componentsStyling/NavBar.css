@@ -1,0 +1,141 @@
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(11, 11, 15, 0.10);
+    backdrop-filter: blur(12px);
+    position: fixed;
+    padding: 16px 160px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 4;
+    border-bottom: 2px solid #1F1F1F;
+}
+.LogoOuter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoOuter img{
+    cursor: pointer;
+    width: 132px;
+}
+.AllNavLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.AllNavLinks p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+    /* color: #838383; */
+}
+
+.LanguageChange{
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(238, 180, 6, 0.04);
+    backdrop-filter: blur(30px);
+}
+
+.LanguageChange p{
+    color: #E1AA05;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.NavBarButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.Hambargar{
+    display: none;
+}
+
+.PhoneNavBar{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+    background: #100F0F;
+    padding: 24px;
+    position: fixed;
+    gap: 40px;
+    align-items: center;
+    top: 90px;
+    left: 100%;
+    transition: left 0.3s ease-in-out;
+    right: 0px;
+    z-index: 10;
+    display: none;
+    border-bottom: 2px solid #1F1F1F;
+    border-top: 2px solid #1F1F1F;
+}
+
+.PhoneNavBar.open {
+    left: 0; 
+}
+@media(max-width:1240px){
+    .AllNavLinks{
+        display: none;
+    }
+}
+
+@media(max-width:1080px){
+    .NavBar{
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+@media(max-width:840px){
+    .NavBar{
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+@media(max-width:720px){
+    .NavBar{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media(max-width:560px){
+    .NavBar{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .CheckMediaInNavBar{
+        display: none;
+    }
+    .Hambargar{
+        display: block;
+    }
+    .PhoneNavBar{
+        display: flex;
+    }
+}
+
+@media(max-width:480px){
+    .LogoOuter img{
+        width: 104px;
+    }
+}

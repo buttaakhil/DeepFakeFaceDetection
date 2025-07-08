@@ -1,0 +1,152 @@
+.WhiteCardInWhileUploadingAndSubText{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.CrossIconInUploading{
+    cursor: pointer;
+}
+.WhiteCardInWhileUploading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background:rgba(255,255, 255,0.88);
+    backdrop-filter: blur(30px);
+    padding: 12px 24px 12px 16px;
+}
+
+.HorizontalProgressBarInUploading{
+    min-width: 240px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.FileNameAndSize{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.FileName{
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Size{
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.SubTextInWhileUploading{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.AnalyzeTextInWhileUploading{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #979797;
+}
+
+.AnalyzeButtonInWhileUploading{
+    display: flex;
+    border-radius: 8px;
+    background: #6F6F6F;
+    gap: 12px;
+    padding: 15.2px 30.4px;
+}
+
+.AnalyzeButtonInWhileUploading:hover{
+    cursor: not-allowed;
+}
+
+.InnerSpotlightCardInWhileUploading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.WhileUploadingProgressSpotlightOuterBox{
+    position: relative;
+}
+
+.WhileUploadingProgressSpotlightCard{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.FileNameSizeAndHorizontalProgressBar{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.MediaIconInWhileUploading{
+    opacity: 0.64;
+}
+
+@media(max-width:720px){
+    .AnalyzeTextInWhileUploading{
+        font-size: 22.4px;
+    }
+    .AnalyzeButtonInWhileUploading img{
+        width: 26px;
+    }
+    .MediaIconInWhileUploading{
+        width: 38px;
+    }
+    .FileName{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:560px){
+    .WhiteCardInWhileUploading{
+        padding-right: 20px;
+        padding-left: 12px;
+    }
+    .WhileUploadingProgressSpotlightCard{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media(max-width:480px){
+    .WhiteCardInWhileUploading{
+        padding-right: 16px;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .WhileUploadingProgressSpotlightCard{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .SubTextInWhileUploading{
+        font-size: 10px;
+    }
+    .HorizontalProgressBarInUploading{
+        min-width: 160px;
+    }
+}
+
+
+@media(max-width:390px){
+    .HorizontalProgressBarInUploading{
+        min-width: 120px;
+    }
+}

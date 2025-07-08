@@ -1,0 +1,168 @@
+
+.FooterTop{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.FooterTopLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.FooterTopRight{
+    display: flex;
+    gap: 120px;
+}
+
+.LogoInFooter{
+    width:132px;
+    cursor: pointer;
+}
+
+.FooterQuickLinks h3,.FooterSupport h3{
+    color: #C4C4C4;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Carbon Bold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+
+.FooterQuickLinks p,.FooterSupport p{
+    color: #888;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Carbon Bold";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.FooterQuickLinks,.FooterSupport{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.FooterSocialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.FooterSocialMediaThreeIcons{
+    display: flex;
+    gap: 24px;
+}
+
+.FooterLine{
+    flex-grow: 1;
+    height: 0.4px;
+    background: #888;
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    position: relative;
+}
+
+.FooterBottomCopyWrite p{
+    color: #ADADAD;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.FooterBottomLinks p{
+    color: #888;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+}
+
+.FooterBottomContent{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.FooterBottomLinks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FooterBottom{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media(max-width:1080px){
+    .FooterTopRight{
+        gap: 80px;
+    }
+}
+
+@media(max-width:720px){
+    .FooterTopRight{
+        flex-direction: column;
+    }
+    .FooterTopRight{
+        gap: 64px;
+    }
+    .FooterQuickLinks,.FooterSupport{
+        gap: 19.2px;
+    }
+}
+
+@media(max-width:560px){
+    .LanguageChange{
+        padding: 6px 8px;
+    }
+    .LanguageChange p{
+        font-size: 14px;
+    }
+    .LanguageChange img{
+        width: 14px;
+    }
+    .FooterQuickLinks h3, .FooterSupport h3 {
+        font-size: 16px;
+    }
+    .FooterQuickLinks p, .FooterSupport p{
+        font-size: 12.8px;
+    }
+    .FooterQuickLinks, .FooterSupport {
+        gap: 14px;
+    }
+    .FooterSocialMediaThreeIcons img{
+        width: 20px;
+    }
+    .FooterBottomCopyWrite p,.FooterBottomLinks p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:480px){
+    .LogoInFooter{
+        width: 104px;
+    }
+}

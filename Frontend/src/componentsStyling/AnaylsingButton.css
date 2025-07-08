@@ -1,0 +1,26 @@
+.AnalysingButton{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.ViewResultText{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media(max-width:720px){
+    .AnalysingButton{
+        padding: 9.6px  19.2px;
+    }
+    .ViewResultText{
+        font-size: 19.2px;
+    }
+    .AnalysingButton img{
+        width: 20px;
+    }
+}

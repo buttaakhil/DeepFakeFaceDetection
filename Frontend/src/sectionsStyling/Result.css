@@ -1,0 +1,373 @@
+.ResultSectionOuter{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 48px;
+}
+
+.CircleProgressBarShieldLinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.CircleProgressBarWithButton{
+    width: 50%;
+    border-radius: 15.75px;
+    border: 1.575px solid var(--Stroke, #2B2B2B);
+    background: linear-gradient(122deg, #0E0E0E 0%, #050505 96.81%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.ShieldAndLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ShieldAboveText{
+    color: #868686;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.3;
+}
+
+.UploadAndGetLinks{
+    border-radius: 10px;
+    border: 1px solid var(--Stroke, #2B2B2B);
+    background: linear-gradient(122deg, #0E0E0E 0%, #050505 96.81%);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Shield{
+    border-radius: 10px;
+    border: 1px solid var(--Stroke, #2B2B2B);
+    background: linear-gradient(122deg, #0E0E0E 0%, #050505 96.81%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.WhereUploadedText{
+    font-family: "Carbon Bold";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.GetLinks{
+    display: flex;
+    gap: 8px;
+    padding: 9.12px 18.24px;
+    border-radius: 4.8px;
+    background: #683FEA;
+    box-shadow: 0px 0px 86.4px 0px rgba(153, 23, 255, 0.50);
+    align-items: center;
+    cursor: pointer;
+}
+.GetLinks p{
+    color: #FFF;
+    font-family: "Carbon Bold";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.PhotosAndHeatMap{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    border-radius: 15.75px;
+    border: 1.575px solid var(--Stroke, #2B2B2B);
+    background: linear-gradient(122deg, #0E0E0E 0%, #050505 96.81%);
+}
+
+.PhotosOfUploaded{
+    display: flex;
+    gap: 24px;
+}
+
+.PhotosOfUploaded img{
+    width: 32%;
+    border-radius: 14px;
+}
+
+
+.ResultSectionSpotlight{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.HeatMapText{
+    font-family: "Carbon Bold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.AnalysisText{
+    color: #868686;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ResultSectionSpotlightOuterBox{
+    position: relative;
+}
+
+.ResultSectionSpotlight{
+    padding-top: 120px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.ResultHeadline{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ResultSection{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.BackButtonInResult{
+    display: flex;
+}
+
+.ReportText{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ReportButton{
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 4.8px;
+    background: #B31D1D;
+    box-shadow: 0px 0px 86.4px 0px rgba(179, 29, 29, 0.50);
+    cursor: pointer;
+    
+}
+
+.PopUpBackgroundBlur{
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.ResultSectionBottomBottons{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.ReAnalyseText{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.DownloadText{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ReAnalyseButton,.DownloadReportButton{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.DownloadReportButton{
+    cursor:not-allowed;
+}
+
+.ReAnalyseButton{
+    border-radius: 4.8px;
+    border: 0.5px solid #FFF;
+}
+
+.DownloadReportButton{
+    border-radius: 4.8px;
+    background: #683FEA;
+    box-shadow: 0px 0px 86.4px 0px rgba(153, 23, 255, 0.50);
+}
+
+.HeatMapAnalysis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width:1080px){
+    .ResultSectionSpotlight{
+        padding-top: 96px;
+        padding-bottom: 64px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .CircleProgressBarWithButton{
+        padding: 32px;
+    }
+    .ShieldAboveText{
+        font-size: 51.2px;
+    }
+    .Shield img{
+        width: 78.4px;
+    }
+    .Shield,.UploadAndGetLinks{
+        padding: 19.2px;
+    }
+    .WhereUploadedText{
+        font-size: 25.6px;
+    }
+    .GetLinks p,.ReportButton p{
+        font-size: 14px;
+    }
+    .GetLinks img,.ReportButton img{
+        width: 17px;
+    }
+    .HeatMapText{
+        font-size: 28.8px;
+    }
+    .AnalysisText{
+        font-size: 19.2px;
+    }
+    .CircleProgressBarShieldLinks,.ResultSectionSpotlight{
+        gap: 32px;
+    }
+}
+
+@media(max-width:840px){
+    .ResultSectionSpotlight{
+        padding-bottom: 51.2px;
+        padding-left: 51.2px;
+        padding-right: 51.2px;
+    }
+    .CircleProgressBarShieldLinks{
+        flex-direction: column;
+    }
+    .ShieldAndLinks{
+        flex-direction: row;
+    }
+    .Shield,.UploadAndGetLinks{
+        flex: 1;
+    }
+    .CircleProgressBarWithButton{
+        width:auto;
+        gap: 40px;
+    }
+    .PhotosAndHeatMap{
+        flex-direction: column;
+        gap: 64px;
+    }
+    .PhotosOfUploaded{
+        justify-content: center;
+    }
+    .PhotosOfUploaded img{
+        flex: 1;
+    }
+    .ResultHeadline{
+        font-size: 44px;
+    }
+    .ResultSectionOuter{
+        gap: 38px;
+    }
+}
+
+@media(max-width:720px){
+    .ResultSectionBottomBottons{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+}
+
+@media(max-width:560px){
+    .ResultSectionSpotlight{
+        padding-top: 76px;  
+        padding-bottom: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .ShieldAndLinks{
+        flex-direction: column;
+    }
+    .DownloadText,.AnalysisText{
+        font-size: 14px;
+    }
+    .CircleProgressBarShieldLinks,.ShieldAndLinks,.ResultSectionSpotlight{
+        gap: 16px;
+    }
+    .ResultSectionBottomBottons{
+        margin-top: 32px;
+    }
+    .ResultHeadline{
+        font-size: 38px;
+    }
+    .PhotosOfUploaded img{
+        border-radius: 8px;
+    }
+    .ResultSectionOuter{
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+}
+
+@media(max-width:480px){
+    .ResultHeadline{
+        font-size: 32px;
+    }
+    .ResultSectionSpotlight{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .PhotosOfUploaded{
+        gap: 12px;
+    }
+    .PhotosOfUploaded img{
+        border-radius: 4px;
+    }
+}

@@ -1,0 +1,184 @@
+.embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex; 
+    gap: 24px;
+}
+
+.TimesNowDiv{
+    margin-left: 24px;
+}
+
+
+.IndianStats{
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.ChartOuter,.CasesCountOuter{
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(62, 62, 73, 0.10);
+    backdrop-filter: blur(30px);
+    padding: 24px;
+    flex: 1;
+}
+
+.CasesCountOuter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.ChartAndCasesCount{
+    display: flex;
+    gap:40px;
+}
+
+.FIRText{
+    color: #EEB406;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.FIRButton{
+    padding: 8px 24px;
+    border-radius: 72px;
+    background: rgba(238, 180, 6, 0.16);
+}
+
+.ChartOuter img{
+    width: 100%;
+}
+
+.CountValue{
+    color: #FFF;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-size: 103.68px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.BelowCountText{
+    color: #838383;
+    text-align: center;
+    font-family: "Carbon Bold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.IndianStatsScrollAllData::-webkit-scrollbar{
+    display: none;
+}
+
+.IndianStatsScrollAllData{
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(62, 62, 73, 0.10);
+    backdrop-filter: blur(30px);
+    padding: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.IndianStatsTwoBoxAndScrollBox{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:1240px){
+    .FIRText{
+        font-size: 32px;
+    }
+    .CountValue{
+        font-size: 72px;
+    }
+    .BelowCountText{
+        font-size: 28px;
+    }
+    .CasesCountOuter{
+        gap: 24px;
+    }
+}
+
+@media(max-width:1080px){
+    .ChartAndCasesCount{
+        flex-direction: column;
+        align-items: center;
+    }
+    .BelowCountText{
+        display: flex;
+        flex-direction: column;
+    }
+    .ChartOuter{
+        width: 80%;
+    }
+    .CasesCountOuter{
+        width: 80%;
+    }
+}
+
+@media(max-width:720px){
+    .ChartAndCasesCount,.IndianStatsTwoBoxAndScrollBox{
+        gap: 24px;
+    }
+    .FIRText{
+        font-size: 24px;
+    }
+    .FIRButton{
+        padding: 4px 16px;
+    }
+    .CountValue{
+        font-size: 56px;
+    }
+    .BelowCountText{
+        font-size: 20px;
+    }
+    .ChartOuter{
+        width: 80%;
+    }
+    .CasesCountOuter{
+        width: 80%;
+    }
+}
+
+@media(max-width:560px){
+    .embla__container{
+        padding: 16px;
+    }
+    .TimesNowDiv{
+        margin-left: 16px !important;
+    }
+    .IndianStats{
+        margin-bottom: 120px;
+    }
+}
+
+@media(max-width:480px){
+    .CountValue{
+        font-size:44px;
+    }
+    .BelowCountText{
+        font-size: 16px;
+    }
+    .FIRText{
+        font-size: 20px;
+    }
+    .CasesCountOuter{
+        gap: 19.2px;
+    }
+}

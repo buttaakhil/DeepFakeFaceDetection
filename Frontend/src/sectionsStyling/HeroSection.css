@@ -1,0 +1,171 @@
+.StreeText{
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: A;
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    text-transform: capitalize;
+}
+
+.ShieldText{
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.HeroSectionSubText{
+    color: #838383;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.HeroPageButtonTopAndTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.StreeAndShieldText{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonTitleGroupAndSubtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeroTextAndCheckMediaButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.FirstImageInHeroSection,.SecondImageInHeroSection{
+    width: 44%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.HeroPageGirlImages{
+    display: flex;
+    justify-content: space-around;
+}
+
+.HeroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 160px;
+    margin-top: 160px;
+    position: relative;
+}
+
+
+@media(max-width:1080px){
+    .StreeText{
+        font-size: 128px;
+    }
+    .ShieldText{
+        font-size: 112px;
+    }
+    .HeroSectionSubText{
+        font-size: 19.2px;
+    }
+    .HeroPageButtonTopAndTitle{
+        gap: 48px;   
+    }
+}
+
+@media(max-width:720px){
+    .StreeText{
+        font-size: 102px;
+    }
+    .ShieldText{
+        font-size: 90px;
+    }
+    .HeroSectionSubText{
+        font-size: 15.4px;
+    }
+    .SecondImageInHeroSection{
+        display: none;
+    }
+    .FirstImageInHeroSection{
+        width: 80%;
+        border-radius: 8px;
+    }
+    .HeroPageButtonTopAndTitle{
+        gap: 32px;
+    }
+    .HeroSection{
+        gap: 64px;
+    }
+    .HeroTextAndCheckMediaButton{
+        gap: 32px;
+    }
+}
+
+@media(max-width:560px){
+    .StreeText{
+        font-size: 80px;
+    }
+    .ShieldText{
+        font-size: 72px;
+    }
+    .HeroSectionSubText{
+        font-size: 12px;
+    }
+    .HeroPageButtonTopAndTitle{
+        gap: 22px;
+    }
+    .FirstImageInHeroSection{
+        border-radius: 4px;
+    }
+    .HeroSection{
+        gap: 51.2px;
+        margin-bottom: 120px;
+        margin-top: 120px;
+    }
+    .HeroTextAndCheckMediaButton{
+        gap: 25.6px;
+    }
+    .StreeAndShieldText{
+        gap: 24px;
+    }
+}
+
+@media(max-width:480px){
+    .StreeText{
+        font-size: 64px;
+    }
+    .ShieldText{
+        font-size: 56px;
+    }
+    .HeroPageButtonTop img{
+        width: 196px;
+    }
+    .StreeAndShieldText{
+        gap: 20px;
+    }
+}
+
+@media(max-width:390px){
+    .StreeAndShieldText{
+        flex-direction: column;
+        gap: 0px;
+    }
+}
