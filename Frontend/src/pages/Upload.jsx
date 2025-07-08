@@ -102,7 +102,6 @@ const Upload = () => {
         maxFiles: 1,
         accept: {
             'image/*': [],
-            'video/*': [],
         },
     });
 
