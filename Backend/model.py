@@ -43,3 +43,4 @@ def load_model(path="deepfake_cnn_model.pkl"):
     model.load_state_dict(torch.load(path, map_location=DEVICE))
     model.eval()
     return model
+
