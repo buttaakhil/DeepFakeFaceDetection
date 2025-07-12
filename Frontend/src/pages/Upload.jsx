@@ -37,7 +37,7 @@ const Upload = () => {
         const formData = new FormData();
         formData.append('file', file);
 
-        fetch('https://deepfakefacedetection-backend.onrender.com/predict', {
+        fetch('https://deepfakefacedetection.onrender.com/predict', {
             method: 'POST',
             body: formData,
         })
